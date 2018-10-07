@@ -3,15 +3,24 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Real Time Web IDE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Real Time Web IDE</title>
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="js/main.js"></script>
+
 </head>
 <body>
-    <div class="main">
-        <textarea id="editer" onkeyup="render()" placeholder="Coding Area......"></textarea>
-        <iframe id="live-view" ></iframe>
+    <nav>Real Time Web IDE</nav>
+    <div id="editer">
+        <textarea id="html" placeholder="HTML"></textarea>
+        <textarea id="css" placeholder="CSS"></textarea>
+		<textarea id="js" placeholder="JS"></textarea>
     </div>
+    <div class="output">
+		<iframe id="live-view"></iframe>
+    </div>
+    <!-- JS -->
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

@@ -5,6 +5,7 @@ A simple real time IDE for web developement.
 
 - Basic Working logic is completed.
 - Real time code preview.
+- Separated code editer for HTML,CSS,JS.
 
 ## To Do
 
